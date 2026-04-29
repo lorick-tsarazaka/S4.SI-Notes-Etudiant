@@ -14,6 +14,7 @@ $routes->get('/', function() {
 $routes->get('/login', 'AuthController::form');
 $routes->post('/login', 'AuthController::login');
 $routes->get('/etudiants', 'EtudiantController::index');
+$routes->get('/note/form', 'NoteController::form');
 
 // routes accessible aux utilisateurs connecter (après login)
 $routes->group('', ['filter' => 'auth'], function($routes) {
