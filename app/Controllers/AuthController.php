@@ -7,6 +7,10 @@ class AuthController extends BaseController
 {
     public function form()
     {
+        if (session()->get('user')) {
+            return redirect()->to('/liste-etudiants');
+        }
+
         return view('auth/login', [
             'title' => 'SysInfo — Connexion'
         ]);
@@ -31,7 +35,7 @@ class AuthController extends BaseController
             // 'admin' | 'etudiant' | 'professeur'
         ]);
 
-        return redirect()->to('/etudiants');
+        return redirect()->to('/liste-etudiants');
     }
 
     public function logout()

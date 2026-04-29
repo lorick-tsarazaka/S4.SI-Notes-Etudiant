@@ -1,6 +1,20 @@
 <?= $this->extend('layout') ?>
 <?= $this->section('content') ?>
 
+    <?php
+        $formatNote = static function ($value) {
+            if ($value === null) {
+                return '-';
+            }
+
+            $formatted = number_format((float) $value, 2, ',', '');
+            $formatted = rtrim($formatted, '0');
+            $formatted = rtrim($formatted, ',');
+
+            return $formatted;
+        };
+    ?>
+
     <div class="page-header">
         <div>
             <h2>Liste des etudiants</h2>
@@ -66,15 +80,15 @@
                     <tbody>
                     <?php foreach ($etudiant['notes_resume'] as $note): ?>
                     <?php
-                        $noteValue = $note['note'];
-                        $noteDisplay = $noteValue === null ? '-' : number_format($noteValue, 2);
+                        $noteDisplay = $formatNote($note['note']);
+                        $resultDisplay = $note['resultat'] === '' ? '-' : $note['resultat'];
                     ?>
                     <tr>
                         <td><?= esc($note['intitule']) ?></td>
                         <td><?= esc($noteDisplay) ?></td>
-                        <td><?= esc($note['resultat']) ?></td>
+                        <td><?= esc($resultDisplay) ?></td>
                         <td>
-                        <a class="action-btn action-link" href="<?= base_url('/note-details') ?>" title="Voir">
+                        <a class="action-btn action-link" href="<?= base_url('/note-details?etudiant=' . $etudiant['id'] . '&scope=' . $note['code']) ?>" title="Voir">
                             <svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
                         </a>
                         </td>

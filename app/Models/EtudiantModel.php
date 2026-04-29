@@ -12,13 +12,18 @@ class EtudiantModel extends Model
         'prenom',
         'date_naissance',
         'lieu_naissance',
-        'numero',
+        'num_inscription',
         'id_classe_actuelle',
     ];
 
-    public function findAll() {
-        $sql = 'select * from etudiants';
-        return $this->db->query($sql)->getResult();
+    public function findAll(?int $limit = null, int $offset = 0)
+    {
+        $builder = $this->db->table($this->table);
+        if ($limit !== null) {
+            $builder->limit($limit, $offset);
+        }
+
+        return $builder->get()->getResult();
     }
 
     public function getById($id) {

@@ -102,3 +102,44 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
  7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
  8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-29 09:19:26 --> ErrorException: Declaration of App\Models\EtudiantModel::findAll() must be compatible with CodeIgniter\BaseModel::findAll(?int $limit = null, int $offset = 0)
+[Method: GET, Route: liste-etudiants]
+in APPPATH\Models\EtudiantModel.php on line 19.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-29 09:20:18 --> ErrorException: Declaration of App\Models\EtudiantModel::findAll() must be compatible with CodeIgniter\BaseModel::findAll(?int $limit = null, int $offset = 0)
+[Method: GET, Route: liste-etudiants]
+in APPPATH\Models\EtudiantModel.php on line 19.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-29 09:20:56 --> ErrorException: Declaration of App\Models\EtudiantModel::findAll() must be compatible with CodeIgniter\BaseModel::findAll(?int $limit = null, int $offset = 0)
+[Method: GET, Route: liste-etudiants]
+in APPPATH\Models\EtudiantModel.php on line 19.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-29 09:21:12 --> ErrorException: Declaration of App\Models\EtudiantModel::findAll() must be compatible with CodeIgniter\BaseModel::findAll(?int $limit = null, int $offset = 0)
+[Method: GET, Route: liste-etudiants]
+in APPPATH\Models\EtudiantModel.php on line 19.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-29 09:27:11 --> ErrorException: Declaration of App\Models\EtudiantModel::findAll() must be compatible with CodeIgniter\BaseModel::findAll(?int $limit = null, int $offset = 0)
+[Method: GET, Route: liste-etudiants]
+in APPPATH\Models\EtudiantModel.php on line 19.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-29 09:27:51 --> ErrorException: Declaration of App\Models\NoteModel::insert($data) must be compatible with CodeIgniter\Model::insert($row = null, bool $returnID = true)
+[Method: GET, Route: liste-etudiants]
+in APPPATH\Models\NoteModel.php on line 47.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+DEBUG - 2026-04-29 09:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 09:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 09:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 09:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 09:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 09:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 09:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 09:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 09:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 09:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 09:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 09:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 09:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 09:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 09:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 09:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 09:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

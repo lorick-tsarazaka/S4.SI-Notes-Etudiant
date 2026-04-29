@@ -272,6 +272,22 @@ INSERT INTO notes (id_etudiant, id_matiere, id_semestre, valeur) VALUES
 ((SELECT id FROM etudiants WHERE num_inscription = 'ETU002467' LIMIT 1), (SELECT id FROM matieres WHERE ue = 'MTH204' AND id_semestre = (SELECT id FROM semestres WHERE nom = 'S4 - Developpement' LIMIT 1) LIMIT 1), (SELECT id FROM semestres WHERE nom = 'S4 - Developpement' LIMIT 1), 13.00),
 ((SELECT id FROM etudiants WHERE num_inscription = 'ETU002467' LIMIT 1), (SELECT id FROM matieres WHERE ue = 'MTH203' AND id_semestre = (SELECT id FROM semestres WHERE nom = 'S4 - Developpement' LIMIT 1) LIMIT 1), (SELECT id FROM semestres WHERE nom = 'S4 - Developpement' LIMIT 1), 15.00);
 
+-- Notes completes pour tous les etudiants et toutes les matieres
+DELETE FROM notes;
+INSERT INTO notes (id_etudiant, id_matiere, id_semestre, valeur)
+SELECT
+    e.id,
+    m.id,
+    m.id_semestre,
+    ROUND(
+        6
+        + MOD((e.id * 3 + m.id * 2), 14)
+        + CASE WHEN MOD(e.id + m.id, 2) = 0 THEN 0.50 ELSE 0.25 END,
+        2
+    ) AS valeur
+FROM etudiants e
+JOIN matieres m ON 1 = 1;
+
 
 INSERT INTO users (nom, email, password, role)
 VALUES (
