@@ -18,7 +18,7 @@
         . EtudiantModel : 
             . findAll()
             . getById(idE) 
-            
+
 
         . MatiereModel : 
             . findAll()
@@ -41,7 +41,7 @@
         . MatiereController
         . NoteController
 
->> 3 - Introduction du template :
+>> 3 - Introduction du template : 
    - Associer le template avec CodeIgniter
 
 >> 4 - Creation du login :
