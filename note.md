@@ -1,0 +1,20 @@
+- notes:
+    - calcul:
+        - pour chaque matiere sur on prend le plus grand valeur (car il peut y avoir plusieur note)
+        - notes total = somme (note * credit) / credit total 
+    - resultat :
+        - si [10;12[ passable pour les notes total semetre (P pour les notes de matiere)
+        - si [12;14[ assez-bien ------ (AB ----)
+        - si [14;16[ bien ------ (B ----)
+        - si [16;+[ tres-bien ------ (TB ----)
+        - resultat semestre : admis ou ajournee selon total credit gagnee
+        - resultat total:
+            - si detail semestre (ex: S4 option dev) on seulement notes total du semestre (credit , moyenne general , mention , admis ou ajournee)
+            - si detail classe (ex: L2 option dev) : total des semestre du classe
+    - si sur une semestre :
+        - il y a des notes [6;10[ sur <= 2 matiere leur resultat c'est 'Comp.' 
+           - credit gagnee = credit total du semetre
+        - il y a des notes [6;10[ sur > 2 matiere leurs result c'est '' est resulat total du semestre est Ajournee meme si notes total est moyenne
+            - credit gagnee = credit total avec des resultat different de ''
+
+- maintenant utilise les donnees reels et les models

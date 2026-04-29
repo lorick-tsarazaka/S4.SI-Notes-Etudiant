@@ -2,6 +2,13 @@
 
 namespace App\Controllers;
 
+use App\Libraries\NoteCalculator;
+use App\Models\EtudiantModel;
+use App\Models\GroupeOptionnelModel;
+use App\Models\MatiereModel;
+use App\Models\NoteModel;
+use App\Models\SemestreModel;
+
 class EtudiantController extends BaseController
 {
     public function index()
@@ -11,63 +18,81 @@ class EtudiantController extends BaseController
 
     public function listes()
     {
-        $resumeBase = [
-            ['intitule' => 'S3', 'note' => 11.24],
-            ['intitule' => 'S4 option dev', 'note' => 12.35],
-            ['intitule' => 'S4 option bddres', 'note' => 10.8],
-            ['intitule' => 'S4 option web', 'note' => 13.1],
-            ['intitule' => 'L2 option dev (S3 & S4 option dev)', 'note' => 12.05],
-            ['intitule' => 'L2 option bddres (S3 & S4 option bddres)', 'note' => 11.4],
-            ['intitule' => 'L2 option web (S3 & S4 option web)', 'note' => 12.8],
-        ];
+        $etudiantModel = new EtudiantModel();
+        $semestreModel = new SemestreModel();
+        $matiereModel = new MatiereModel();
+        $noteModel = new NoteModel();
+        $groupeModel = new GroupeOptionnelModel();
 
-        $etudiantsBase = [
-            [
-                'num_inscription' => 'ETU002369',
-                'nom' => 'Rakoto',
-                'prenom' => 'Andry',
-                'date_naissance' => '2004-05-12',
-                'lieu_naissance' => 'Antananarivo',
-            ],
-            [
-                'num_inscription' => 'ETU002587',
-                'nom' => 'Razafy',
-                'prenom' => 'Fanja',
-                'date_naissance' => '2004-09-03',
-                'lieu_naissance' => 'Antsirabe',
-            ],
-            [
-                'num_inscription' => 'ETU002356',
-                'nom' => 'Ranaivo',
-                'prenom' => 'Hery',
-                'date_naissance' => '2004-02-21',
-                'lieu_naissance' => 'Toamasina',
-            ],
-            [
-                'num_inscription' => 'ETU003122',
-                'nom' => 'Rabenja',
-                'prenom' => 'Lalao',
-                'date_naissance' => '2004-11-18',
-                'lieu_naissance' => 'Mahajanga',
-            ],
-            [
-                'num_inscription' => 'ETU002467',
-                'nom' => 'Tsarafidy',
-                'prenom' => 'Miora',
-                'date_naissance' => '2004-07-27',
-                'lieu_naissance' => 'Fianarantsoa',
-            ],
-        ];
+        $scopes = NoteCalculator::getScopesFromSemestres($semestreModel->getAllWithOptionAndClasse());
+        $semestreNames = [];
+        foreach ($scopes as $scope) {
+            foreach ($scope['semestres'] as $nomSemestre) {
+                $semestreNames[$nomSemestre] = true;
+            }
+        }
 
+        $semestreRows = $semestreModel->getByNames(array_keys($semestreNames));
+        $semestreMap = [];
+        $semestreIds = [];
+        foreach ($semestreRows as $row) {
+            $semestreMap[$row['nom']] = $row;
+            $semestreIds[] = $row['id'];
+        }
+
+        $matieres = $matiereModel->getMatieresBySemestreIds($semestreIds);
+        $matieresBySemestre = [];
+        $allMatiereIds = [];
+        foreach ($matieres as $matiere) {
+            $matieresBySemestre[$matiere['id_semestre']][] = $matiere;
+            $allMatiereIds[] = $matiere['id'];
+        }
+
+        $groupRows = $groupeModel->getGroupsBySemestreIds($semestreIds);
+        $groupIds = array_column($groupRows, 'id');
+        $groupMatieresMap = $groupeModel->getGroupMatieresMap($groupIds);
+        $optionalGroupsBySemestre = [];
+        foreach ($groupRows as $group) {
+            $semestreId = (int) $group['id_semestre'];
+            $optionalGroupsBySemestre[$semestreId][] = [
+                'id' => (int) $group['id'],
+                'credits' => (int) $group['credits'],
+                'matiere_ids' => $groupMatieresMap[(int) $group['id']] ?? [],
+            ];
+        }
+
+        $etudiantsRaw = $etudiantModel->findAll();
         $etudiants = [];
-        foreach ($etudiantsBase as $index => $etudiant) {
+        foreach ($etudiantsRaw as $etudiantRaw) {
+            $etudiant = (array) $etudiantRaw;
+            $bestNotes = $noteModel->getMaxNotesByEtudiantAndMatieres((int) $etudiant['id'], $allMatiereIds);
+            $semestreSummaries = [];
+
+            foreach ($semestreMap as $nom => $semestre) {
+                $matiereList = $matieresBySemestre[$semestre['id']] ?? [];
+                $optionalGroups = $optionalGroupsBySemestre[$semestre['id']] ?? [];
+                $semestreSummaries[$nom] = NoteCalculator::computeSemestreSummary($matiereList, $bestNotes, $optionalGroups);
+            }
+
             $notesResume = [];
-            foreach ($resumeBase as $row) {
-                $noteValue = round($row['note'] + ($index * 0.18), 2);
+            foreach ($scopes as $scope) {
+                if ($scope['type'] === 'semestre') {
+                    $summary = $semestreSummaries[$scope['semestres'][0]]
+                        ?? NoteCalculator::computeSemestreSummary([], [], []);
+                } else {
+                    $summaryList = [];
+                    foreach ($scope['semestres'] as $nomSemestre) {
+                        $summaryList[] = $semestreSummaries[$nomSemestre]
+                            ?? NoteCalculator::computeSemestreSummary([], [], []);
+                    }
+                    $summary = NoteCalculator::computeClasseSummary($summaryList);
+                }
+
                 $notesResume[] = [
-                    'intitule' => $row['intitule'],
-                    'note' => $noteValue,
-                    'resultat' => $noteValue >= 10 ? 'Passable' : 'Non valide',
+                    'code' => $scope['code'],
+                    'intitule' => $scope['label'],
+                    'note' => $summary['moyenne'],
+                    'resultat' => $summary['mention'],
                 ];
             }
 
