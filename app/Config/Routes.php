@@ -22,7 +22,7 @@ $routes->group('', ['filter' => 'auth'], function($routes) {
 });
 
 // routes accessible à l'admin et au bibliothecaire
-$routes->group('', ['filter' => 'role:admin,bibliothecaire'], function($routes) {
+$routes->group('', ['filter' => 'role:admin,professeur'], function($routes) {
 
 });
 
