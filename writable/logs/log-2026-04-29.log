@@ -23,3 +23,58 @@ in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
  8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
  9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
 10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-29 06:47:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "note/index.php"
+[Method: GET, Route: note/form]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/NoteController.php(12): view()
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\NoteController->form()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+DEBUG - 2026-04-29 07:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 07:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-29 07:22:54 --> CSRF token verified.
+DEBUG - 2026-04-29 07:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 07:22:55 --> Error: Class "App\Validation\LivreRules" not found
+[Method: POST, Route: login]
+in SYSTEMPATH/Validation/Validation.php on line 735.
+ 1 SYSTEMPATH/Validation/Validation.php(122): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 SYSTEMPATH/Config/Services.php(844): CodeIgniter\Validation\Validation->__construct()
+ 3 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::validation()
+ 4 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic()
+ 5 SYSTEMPATH/Config/Services.php(839): CodeIgniter\Config\BaseService::getSharedInstance()
+ 6 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::validation()
+ 7 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic()
+ 8 SYSTEMPATH/Common.php(1078): CodeIgniter\Config\BaseService::get()
+ 9 SYSTEMPATH/HTTP/RedirectResponse.php(116): service()
+10 SYSTEMPATH/HTTP/RedirectResponse.php(100): CodeIgniter\HTTP\RedirectResponse->withErrors()
+11 APPPATH/Controllers/AuthController.php(23): CodeIgniter\HTTP\RedirectResponse->withInput()
+12 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\AuthController->login()
+13 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+14 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+15 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+17 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+INFO - 2026-04-29 07:23:27 --> CSRF token verified.
+DEBUG - 2026-04-29 07:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 07:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-29 07:23:50 --> CSRF token verified.
+DEBUG - 2026-04-29 07:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 07:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 07:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-29 07:24:08 --> CSRF token verified.
+DEBUG - 2026-04-29 07:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 07:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-29 07:29:36 --> CSRF token verified.
+DEBUG - 2026-04-29 07:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 07:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-29 07:30:52 --> CSRF token verified.
+DEBUG - 2026-04-29 07:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 07:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-04-29 07:31:08 --> CSRF token verified.
+DEBUG - 2026-04-29 07:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-04-29 07:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

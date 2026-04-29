@@ -28,10 +28,10 @@ class AuthController extends BaseController
             'nom' => $user['nom'],
             'email' => $user['email'],
             'role' => $user['role'],
-            // 'admin' | 'bibliothecaire' | 'lecteur'
+            // 'admin' | 'etudiant' | 'professeur'
         ]);
 
-        return redirect()->to('/livres');
+        return redirect()->to('/etudiants');
     }
 
     public function logout()
