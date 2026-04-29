@@ -1,0 +1,1 @@
+__ci_last_regenerate|i:1776694427;_ci_previous_url|s:44:"http://localhost:8000/index.php/livre/create";errors|a:3:{s:5:"titre";s:23:"Le titre est trop court";s:6:"auteur";s:57:"The auteur field must be at least 3 characters in length.";s:4:"ISBN";s:41:"The ISBN field must contain only numbers.";}__ci_vars|a:1:{s:6:"errors";s:3:"old";}
