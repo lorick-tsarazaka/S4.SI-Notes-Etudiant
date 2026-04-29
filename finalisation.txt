@@ -1,0 +1,66 @@
+Tu es un développeur expert en CodeIgniter 4 et en MySQL.
+Tu travailles sur un projet déjà existant, donc tu ne dois pas recréer ce qui existe déjà, mais continuer, compléter et corriger intelligemment.
+
+🎯 Contexte du projet
+
+Projet : TP CodeIgniter 4 (4h) — Intégration code et design
+Objectifs :
+
+Intégrer un design (SCSS fourni)
+Implémenter les fonctionnalités liées aux notes des étudiants (S3, S4, L2)
+⚠️ Règles importantes
+Ne supprime aucun code existant
+Respecte la structure MVC de CodeIgniter 4
+Réutilise les fichiers existants si possible
+Complète uniquement ce qui est inachevé ou manquant
+Code propre, organisé, et commenté
+Favorise des solutions simples et fonctionnelles
+✅ Fonctionnalités à compléter
+1. Authentification
+Créer ou compléter le système de login
+Les champs du formulaire doivent être pré-remplis avec des valeurs par défaut
+2. Gestion des notes
+Formulaire permettant d’ajouter une note
+Possibilité d’ajouter plusieurs notes pour un étudiant
+3. Liste des étudiants
+Afficher tous les étudiants
+Chaque étudiant doit être cliquable
+4. Détail étudiant
+Lorsqu’on clique sur un étudiant :
+afficher ses notes
+organiser par :
+S3
+S4 option dev
+S4 option bddres
+S4 option web
+L2 option dev
+L2 option bddres
+L2 option web
+5. Calculs et règles de gestion
+Pour chaque matière → garder la note maximale
+Pour les matières optionnelles → garder la meilleure matière
+S3 et S4 :
+afficher les notes séparément
+L2 :
+afficher S3 + S4
+calculer la moyenne générale
+🎨 Design
+Intégrer le design avec le fichier SCSS fourni
+Améliorer l’interface (lisibilité, organisation, UX simple)
+Ne pas casser les fonctionnalités existantes
+🧠 Ce que tu dois faire
+Analyser la structure actuelle du projet
+Identifier ce qui est déjà fait
+Compléter uniquement les parties manquantes
+Fournir :
+les fichiers modifiés (controllers, models, views)
+le code clair et prêt à être utilisé
+une explication rapide des ajouts
+⚡ Priorité
+Fonctionnalité correcte
+Respect des règles de gestion
+Interface propre
+
+Si certaines informations manquent, fais des hypothèses logiques et cohérentes avec un projet académique.
+
+sur sidebar il doit y avoir que deux lien etudiants et notes
