@@ -18,12 +18,7 @@
         . EtudiantModel : 
             . findAll()
             . getById(idE) 
-            . getNoteBySemestre(idE, idS)
-            . updateNoteEtudiant(idE, id)
-            . getNoteByClasse(idE, idC)
-            . getNoteByOption(idE, idS)
-            . getNoteMaxParMatiereOptionnel(idO, idE)
-            . CalculerMoyenneSemestre(idE, idS)
+            
 
         . MatiereModel : 
             . findAll()
@@ -35,6 +30,10 @@
             . InsertNote(idE, note, idS, idM)
             . deleteNote(idNote)
             . updateNote(idNote, note)
+            . getNoteByClasse(idE, idC)
+            . getNoteByOption(idE, idS)
+            . getNoteMaxParMatiereOptionnel(idO, idE)
+            . CalculerMoyenneSemestre(idE, idS)
         
     - Creation des controllers:
         . AuthController 
