@@ -28,9 +28,9 @@
       <svg viewBox="0 0 24 24"><rect width="7" height="9" x="3" y="3" rx="1"/><rect width="7" height="5" x="14" y="3" rx="1"/><rect width="7" height="9" x="14" y="12" rx="1"/><rect width="7" height="5" x="3" y="16" rx="1"/></svg>
       Tableau de bord
     </a>
-    <a href="<?= base_url('/etudiants') ?>" class="nav-item active">
+    <a href="<?= base_url('/liste-etudiants') ?>" class="nav-item active">
       <svg viewBox="0 0 24 24"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
-      Utilisateurs
+      Etudiants
       <span class="nav-badge">24</span>
     </a>
     <a href="<?= base_url('/note/form') ?>" class="nav-item">

@@ -50,17 +50,22 @@
    - Creer bouton valider
    - Envoyer la requete vers AuthController
 
->> 5 -Creer formulaire note: 
+>> 5 -Creer pages note: 
    - Creer un crud pour note : 
-        . Create :
+        . Listes notes:
+            - etudiant (etu & nom prenom)
+            - semestre
+            - matiere
+            - notes
+        . Create : (form)
             ajouter des inputs pour Etudiant + note + matiere + semestres
             ajouter un bouton inserer
         . Delete :
             ajouter des inputs pour Etudiant + note + matiere + semestres
             ajouter un bouton delete
-        . Update :
+        . Update : (form)
         
->> 6 - Creer un page liste :
+>> 6 - Creer un page liste etudiant :
     - Afficher la liste des etudiants 
     - Ajouter a chaque liste des liens pour acceder a leur note :
             . S3
@@ -71,7 +76,6 @@
             . L2 option bddres
             . L2 option web
     - Associer chaque lien au methode dans EtudiantModel + NoteModel
-
 
  
         

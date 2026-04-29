@@ -78,3 +78,27 @@ DEBUG - 2026-04-29 07:30:52 --> Session: Class initialized using 'CodeIgniter\Se
 INFO - 2026-04-29 07:31:08 --> CSRF token verified.
 DEBUG - 2026-04-29 07:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2026-04-29 07:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-04-29 08:40:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "note/details.php"
+[Method: GET, Route: note-details]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('note/details.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('note/details', [], true)
+ 3 APPPATH\Controllers\NoteController.php(16): view('note/details', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\NoteController->details()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoteController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-29 08:41:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "note/details.php"
+[Method: GET, Route: note-details]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('note/details.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('note/details', [], true)
+ 3 APPPATH\Controllers\NoteController.php(16): view('note/details', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\NoteController->details()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NoteController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
