@@ -4,6 +4,8 @@ DROP DATABASE IF EXISTS tp_notes_etudiants;
 CREATE DATABASE tp_notes_etudiants;
 USE tp_notes_etudiants;
 
+-- tables + data
+-- users
 CREATE TABLE users(
     id INT PRIMARY KEY AUTO_INCREMENT,
     nom VARCHAR(255),
@@ -97,10 +99,6 @@ LEFT JOIN notes n
     ON n.id_etudiant = e.id
     AND n.id_matiere = m.id
     AND n.id_semestre = s.id;
-
-INSERT INTO users (nom, email, password, role) VALUES
-('Professeur Demo', 'prof.demo@si.test', 'prof123', 'professeur'),
-('Etudiant Demo', 'etudiant.demo@si.test', 'etudiant123', 'etudiant');
 
 INSERT INTO classes (nom) VALUES
 ('L2');
@@ -275,3 +273,10 @@ INSERT INTO notes (id_etudiant, id_matiere, id_semestre, valeur) VALUES
 ((SELECT id FROM etudiants WHERE num_inscription = 'ETU002467' LIMIT 1), (SELECT id FROM matieres WHERE ue = 'MTH203' AND id_semestre = (SELECT id FROM semestres WHERE nom = 'S4 - Developpement' LIMIT 1) LIMIT 1), (SELECT id FROM semestres WHERE nom = 'S4 - Developpement' LIMIT 1), 15.00);
 
 
+INSERT INTO users (nom, email, password, role)
+VALUES (
+    'admin',
+    'admin@gmail.com',
+    '$2y$10$tt1ah6/g72.YEssE77MYlu5K/kzNIQkTDv/oFRuR8hd72y9cc5xoO',
+    'admin'
+);
