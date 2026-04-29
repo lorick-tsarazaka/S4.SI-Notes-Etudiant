@@ -1,0 +1,847 @@
+CRITICAL - 2026-04-15 07:21:45 --> Error: Class "App\Controllers\ProduitModel" not found
+[Method: GET, Route: produits/]
+in APPPATH/Controllers/Produit.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Produit->index()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-15 07:22:27 --> Error: Class "App\Controllers\ProduitModel" not found
+[Method: GET, Route: produits/]
+in APPPATH/Controllers/Produit.php on line 9.
+ 1 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Produit->index()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-15 07:22:59 --> ErrorException: Declaration of App\Models\ProduitModel::findAll() must be compatible with CodeIgniter\BaseModel::findAll(?int $limit = null, int $offset = 0)
+[Method: GET, Route: produits/]
+in APPPATH/Models/ProduitModel.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-15 07:23:00 --> ErrorException: Declaration of App\Models\ProduitModel::findAll() must be compatible with CodeIgniter\BaseModel::findAll(?int $limit = null, int $offset = 0)
+[Method: GET, Route: produits/]
+in APPPATH/Models/ProduitModel.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-15 07:23:01 --> ErrorException: Declaration of App\Models\ProduitModel::findAll() must be compatible with CodeIgniter\BaseModel::findAll(?int $limit = null, int $offset = 0)
+[Method: GET, Route: produits/]
+in APPPATH/Models/ProduitModel.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-15 07:23:01 --> ErrorException: Declaration of App\Models\ProduitModel::findAll() must be compatible with CodeIgniter\BaseModel::findAll(?int $limit = null, int $offset = 0)
+[Method: GET, Route: produits/]
+in APPPATH/Models/ProduitModel.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-15 07:25:15 --> ErrorException: Declaration of App\Models\ProduitModel::findAll() must be compatible with CodeIgniter\BaseModel::findAll(?int $limit = null, int $offset = 0)
+[Method: GET, Route: produits/]
+in APPPATH/Models/ProduitModel.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-15 07:25:17 --> ErrorException: Declaration of App\Models\ProduitModel::findAll() must be compatible with CodeIgniter\BaseModel::findAll(?int $limit = null, int $offset = 0)
+[Method: GET, Route: produits/]
+in APPPATH/Models/ProduitModel.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-15 07:25:17 --> ErrorException: Declaration of App\Models\ProduitModel::findAll() must be compatible with CodeIgniter\BaseModel::findAll(?int $limit = null, int $offset = 0)
+[Method: GET, Route: produits/]
+in APPPATH/Models/ProduitModel.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-15 07:25:24 --> ErrorException: Declaration of App\Models\ProduitModel::findAll() must be compatible with CodeIgniter\BaseModel::findAll(?int $limit = null, int $offset = 0)
+[Method: GET, Route: produits/]
+in APPPATH/Models/ProduitModel.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-15 07:25:25 --> ErrorException: Declaration of App\Models\ProduitModel::findAll() must be compatible with CodeIgniter\BaseModel::findAll(?int $limit = null, int $offset = 0)
+[Method: GET, Route: produits/]
+in APPPATH/Models/ProduitModel.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-15 07:25:25 --> ErrorException: Declaration of App\Models\ProduitModel::findAll() must be compatible with CodeIgniter\BaseModel::findAll(?int $limit = null, int $offset = 0)
+[Method: GET, Route: produits/]
+in APPPATH/Models/ProduitModel.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-15 07:25:25 --> ErrorException: Declaration of App\Models\ProduitModel::findAll() must be compatible with CodeIgniter\BaseModel::findAll(?int $limit = null, int $offset = 0)
+[Method: GET, Route: produits/]
+in APPPATH/Models/ProduitModel.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-15 07:26:37 --> ErrorException: Declaration of App\Models\ProduitModel::findAll() must be compatible with CodeIgniter\BaseModel::findAll(?int $limit = null, int $offset = 0)
+[Method: GET, Route: produits/]
+in APPPATH/Models/ProduitModel.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-15 07:26:44 --> ErrorException: Declaration of App\Models\ProduitModel::findAll() must be compatible with CodeIgniter\BaseModel::findAll(?int $limit = null, int $offset = 0)
+[Method: GET, Route: produits/]
+in APPPATH/Models/ProduitModel.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-15 07:29:10 --> ErrorException: Declaration of App\Models\ProduitModel::findAll() must be compatible with CodeIgniter\BaseModel::findAll(?int $limit = null, int $offset = 0)
+[Method: GET, Route: produits/]
+in APPPATH/Models/ProduitModel.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-15 07:29:13 --> ErrorException: Declaration of App\Models\ProduitModel::findAll() must be compatible with CodeIgniter\BaseModel::findAll(?int $limit = null, int $offset = 0)
+[Method: GET, Route: produits/]
+in APPPATH/Models/ProduitModel.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-15 07:29:13 --> ErrorException: Declaration of App\Models\ProduitModel::findAll() must be compatible with CodeIgniter\BaseModel::findAll(?int $limit = null, int $offset = 0)
+[Method: GET, Route: produits/]
+in APPPATH/Models/ProduitModel.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-15 07:29:13 --> ErrorException: Declaration of App\Models\ProduitModel::findAll() must be compatible with CodeIgniter\BaseModel::findAll(?int $limit = null, int $offset = 0)
+[Method: GET, Route: produits/]
+in APPPATH/Models/ProduitModel.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-15 07:29:30 --> ErrorException: Declaration of App\Models\ProduitModel::findAll() must be compatible with CodeIgniter\BaseModel::findAll(?int $limit = null, int $offset = 0)
+[Method: GET, Route: produits/]
+in APPPATH/Models/ProduitModel.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-15 07:30:20 --> ErrorException: Declaration of App\Models\ProduitModel::findAll() must be compatible with CodeIgniter\BaseModel::findAll(?int $limit = null, int $offset = 0)
+[Method: GET, Route: produits/]
+in APPPATH/Models/ProduitModel.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-15 07:34:53 --> Error: Class "Model" not found
+[Method: GET, Route: produits/]
+in APPPATH/Models/ProduitModel.php on line 7.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(315): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 APPPATH/Controllers/Produit.php(11): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Produit->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-15 07:35:02 --> ErrorException: Declaration of App\Models\ProduitModel::findAll() must be compatible with CodeIgniter\BaseModel::findAll(?int $limit = null, int $offset = 0)
+[Method: GET, Route: produits/]
+in APPPATH/Models/ProduitModel.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-04-15 07:35:27 --> ErrorException: Declaration of App\Models\ProduitModel::findAll() must be compatible with CodeIgniter\BaseModel::findAll(?int $limit = null, int $offset = 0)
+[Method: GET, Route: produits/]
+in APPPATH/Models/ProduitModel.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2026-04-15 07:46:49 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+#7 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(951): App\Controllers\Produit->index()
+#8 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+#6 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(951): App\Controllers\Produit->index()
+#7 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2026-04-15 07:46:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+[Method: GET, Route: produits/]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Produit->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-15 07:50:26 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+#7 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(951): App\Controllers\Produit->index()
+#8 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+#6 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(951): App\Controllers\Produit->index()
+#7 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2026-04-15 07:50:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+[Method: GET, Route: produits/]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Produit->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-15 07:50:26 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+#7 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(951): App\Controllers\Produit->index()
+#8 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+#6 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(951): App\Controllers\Produit->index()
+#7 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2026-04-15 07:50:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+[Method: GET, Route: produits/]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Produit->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-15 07:50:27 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+#7 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(951): App\Controllers\Produit->index()
+#8 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+#6 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(951): App\Controllers\Produit->index()
+#7 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2026-04-15 07:50:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+[Method: GET, Route: produits/]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Produit->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-15 07:50:27 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+#7 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(951): App\Controllers\Produit->index()
+#8 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+#6 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(951): App\Controllers\Produit->index()
+#7 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2026-04-15 07:50:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+[Method: GET, Route: produits/]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Produit->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-15 07:50:27 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+#7 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(951): App\Controllers\Produit->index()
+#8 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+#6 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(951): App\Controllers\Produit->index()
+#7 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2026-04-15 07:50:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+[Method: GET, Route: produits/]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Produit->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-15 07:51:47 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+#7 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(951): App\Controllers\Produit->index()
+#8 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+#6 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(951): App\Controllers\Produit->index()
+#7 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2026-04-15 07:51:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+[Method: GET, Route: produits/]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Produit->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-15 07:51:48 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+#7 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(951): App\Controllers\Produit->index()
+#8 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+#6 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(951): App\Controllers\Produit->index()
+#7 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2026-04-15 07:51:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+[Method: GET, Route: produits/]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Produit->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-15 07:51:48 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+#7 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(951): App\Controllers\Produit->index()
+#8 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+#6 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(951): App\Controllers\Produit->index()
+#7 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2026-04-15 07:51:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+[Method: GET, Route: produits/]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Produit->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-15 07:52:04 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+#7 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(951): App\Controllers\Produit->index()
+#8 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+#6 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(951): App\Controllers\Produit->index()
+#7 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2026-04-15 07:52:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+[Method: GET, Route: produits/]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Produit->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-15 07:52:05 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+#7 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(951): App\Controllers\Produit->index()
+#8 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+#6 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(951): App\Controllers\Produit->index()
+#7 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2026-04-15 07:52:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+[Method: GET, Route: produits/]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Produit->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-15 07:52:05 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+#7 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(951): App\Controllers\Produit->index()
+#8 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+#6 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(951): App\Controllers\Produit->index()
+#7 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2026-04-15 07:52:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+[Method: GET, Route: produits/]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Produit->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ERROR - 2026-04-15 07:52:40 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+#7 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(951): App\Controllers\Produit->index()
+#8 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+#6 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(951): App\Controllers\Produit->index()
+#7 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/itu/github_project/itu.S4.IHM.tp_codeIgniter/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2026-04-15 07:52:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+[Method: GET, Route: produits/]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Produit.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Produit->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-15 08:04:36 --> ErrorException: Undefined variable $router
+[Method: GET, Route: produit/form]
+in APPPATH/Config/Routes.php on line 11.
+ 1 APPPATH/Config/Routes.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Router/RouteCollection.php(339): require('/home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(818): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-15 08:04:55 --> ErrorException: Undefined variable $router
+[Method: GET, Route: produit/form]
+in APPPATH/Config/Routes.php on line 11.
+ 1 APPPATH/Config/Routes.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Router/RouteCollection.php(339): require('/home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(818): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-15 08:05:00 --> ErrorException: Undefined variable $router
+[Method: GET, Route: produit/1]
+in APPPATH/Config/Routes.php on line 11.
+ 1 APPPATH/Config/Routes.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Router/RouteCollection.php(339): require('/home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(818): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-15 08:05:30 --> ErrorException: Undefined variable $router
+[Method: GET, Route: produit/2]
+in APPPATH/Config/Routes.php on line 11.
+ 1 APPPATH/Config/Routes.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Router/RouteCollection.php(339): require('/home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(818): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-15 08:06:07 --> ErrorException: Undefined variable $router
+[Method: GET, Route: produit/1]
+in APPPATH/Config/Routes.php on line 11.
+ 1 APPPATH/Config/Routes.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Router/RouteCollection.php(339): require('/home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(818): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-15 08:20:58 --> ErrorException: Trying to access array offset on null
+[Method: POST, Route: produit/list]
+in APPPATH/Views/produit/list.php on line 9.
+ 1 APPPATH/Views/produit/list.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Views/produit/list.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Produit.php(38): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Produit->findById()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-15 08:24:37 --> ErrorException: Trying to access array offset on null
+[Method: POST, Route: produit/list]
+in APPPATH/Views/produit/list.php on line 9.
+ 1 APPPATH/Views/produit/list.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Views/produit/list.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Produit.php(38): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Produit->findById()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-15 08:25:12 --> ErrorException: Trying to access array offset on null
+[Method: POST, Route: produit/list]
+in APPPATH/Views/produit/list.php on line 9.
+ 1 APPPATH/Views/produit/list.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Views/produit/list.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Produit.php(39): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Produit->findById()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-15 08:25:39 --> ErrorException: Undefined array key "produit"
+[Method: POST, Route: produit/list]
+in APPPATH/Controllers/Produit.php on line 34.
+ 1 APPPATH/Controllers/Produit.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Produit->findById()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-04-15 08:25:50 --> ErrorException: Trying to access array offset on null
+[Method: POST, Route: produit/list]
+in APPPATH/Views/produit/list.php on line 9.
+ 1 APPPATH/Views/produit/list.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/itu/github_project/itu.S4.IHM.tp_codeIgniter/app/Views/produit/list.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Produit.php(39): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Produit->findById()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
