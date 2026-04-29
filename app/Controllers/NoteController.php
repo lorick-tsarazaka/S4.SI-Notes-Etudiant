@@ -29,6 +29,22 @@ class NoteController extends BaseController
         ]);
     }
 
+    public function delete($id)
+    {
+        $noteModel = new NoteModel();
+
+        // vérifier si note exist
+        $note = $noteModel->find($id);
+
+        if (!$note) {
+            return redirect()->to('/notes')->with('error', 'Note introuvable');
+        }
+
+        $noteModel->delete($id);
+
+        return redirect()->to('/notes')->with('success', 'Note supprimé avec succès');
+    }
+
     public function form()
     {
         return view('note/form', [

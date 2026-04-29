@@ -37,5 +37,4 @@ class NoteModel extends Model
 
         return $notes;
     }
-
 }
